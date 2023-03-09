@@ -1,0 +1,142 @@
+export const videogames = [
+  {
+    id: "1",
+    name: "goku",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5fK5RTeJdOjCeN05p14YGjkcj4_SQUBFWHg&usqp=CAU",
+    platforms: "XBox",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "naruto",
+    image: "https://indiehoy.com/wp-content/uploads/2022/05/naruto.jpg",
+    platforms: "XBox",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "Leono",
+    image:
+      "https://images.justwatch.com/poster/284443041/s718/thundercats.%7Bformat%7D",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "goku",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5fK5RTeJdOjCeN05p14YGjkcj4_SQUBFWHg&usqp=CAU",
+    platforms: "XBox",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "naruto",
+    image: "https://indiehoy.com/wp-content/uploads/2022/05/naruto.jpg",
+    platforms: "XBox",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "Leono",
+    image:
+      "https://images.justwatch.com/poster/284443041/s718/thundercats.%7Bformat%7D",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "goku",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5fK5RTeJdOjCeN05p14YGjkcj4_SQUBFWHg&usqp=CAU",
+    platforms: "XBox",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "naruto",
+    image: "https://indiehoy.com/wp-content/uploads/2022/05/naruto.jpg",
+    platforms: "XBox",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "Leono",
+    image:
+      "https://images.justwatch.com/poster/284443041/s718/thundercats.%7Bformat%7D",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "goku",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5fK5RTeJdOjCeN05p14YGjkcj4_SQUBFWHg&usqp=CAU",
+    platforms: "XBox",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "naruto",
+    image: "https://indiehoy.com/wp-content/uploads/2022/05/naruto.jpg",
+    platforms: "XBox",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "Leono",
+    image:
+      "https://images.justwatch.com/poster/284443041/s718/thundercats.%7Bformat%7D",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "goku",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5fK5RTeJdOjCeN05p14YGjkcj4_SQUBFWHg&usqp=CAU",
+    platforms: "XBox",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "naruto",
+    image: "https://indiehoy.com/wp-content/uploads/2022/05/naruto.jpg",
+    platforms: "XBox",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+  {
+    id: "1",
+    name: "Leono",
+    image:
+      "https://images.justwatch.com/poster/284443041/s718/thundercats.%7Bformat%7D",
+    rating: "4.5",
+    released: "17/02/2004",
+    genres: [{ id: "1", name: "Action" }],
+  },
+];

@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:1px solid rgb(154, 135, 135);
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border-color: darkgoldenrod;
+    gap: 1rem;
+    margin: 0; padding: 10px;
+ /*   background-color: black; */
+
+    background-image: url("../../images/cards.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:0;
+    color: white;       
+
+}
+
+
+.pagination {
+    margin-bottom: 2rem;
+    cursor: pointer;
+}

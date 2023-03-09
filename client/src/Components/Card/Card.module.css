@@ -1,0 +1,12 @@
+.cardContainer{
+    background-color:rgb(143, 102, 25);
+    border: 1.5px solid  #0f0f0f;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; align-items: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}

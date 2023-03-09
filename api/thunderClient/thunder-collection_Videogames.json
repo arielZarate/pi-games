@@ -1,0 +1,148 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Videogames",
+    "dateExported": "2023-02-17T14:11:53.002Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "49a29785-96b3-4a9b-ae5b-02ec10ea6c88",
+            "colId": "dbf6cd94-35f4-48f5-a41c-9c683fc9b5a0",
+            "containerId": "",
+            "name": "getGames",
+            "url": "http://localhost:3000/videogames/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-02-13T13:42:13.153Z",
+            "modified": "2023-02-13T14:51:15.848Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9bdea9c0-127f-4639-8112-4b4222b8e161",
+            "colId": "dbf6cd94-35f4-48f5-a41c-9c683fc9b5a0",
+            "containerId": "",
+            "name": "getById",
+            "url": "https://api.rawg.io/api/games/5000?key=8428f4c04f784a6b82666578db2515b3",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-02-13T13:48:29.188Z",
+            "modified": "2023-02-13T13:49:43.048Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "key",
+                    "value": "8428f4c04f784a6b82666578db2515b3",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "217ec9b7-bd9d-4dcf-adaa-a06c55f44e92",
+            "colId": "dbf6cd94-35f4-48f5-a41c-9c683fc9b5a0",
+            "containerId": "",
+            "name": "getByName",
+            "url": "https://api.rawg.io/api/games?key=8428f4c04f784a6b82666578db2515b3&search=multiplayer",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-02-13T13:52:00.085Z",
+            "modified": "2023-02-13T13:53:56.825Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "key",
+                    "value": "8428f4c04f784a6b82666578db2515b3",
+                    "isPath": false
+                },
+                {
+                    "name": "search",
+                    "value": "multiplayer",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "e8de389d-0c64-4d79-8271-24e778a75f13",
+            "colId": "dbf6cd94-35f4-48f5-a41c-9c683fc9b5a0",
+            "containerId": "",
+            "name": "get Genres",
+            "url": "http://localhost:3000/genres/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-02-13T14:52:48.178Z",
+            "modified": "2023-02-13T14:52:58.111Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d17c598f-54f5-4ae2-99fe-78670818ff0c",
+            "colId": "dbf6cd94-35f4-48f5-a41c-9c683fc9b5a0",
+            "containerId": "",
+            "name": "createVideogames",
+            "url": "http://localhost:3000/videogames/",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-02-16T15:15:55.311Z",
+            "modified": "2023-02-17T00:50:33.790Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"naruto \",\n  \"image\":\"https://as01.epimg.net/epik/imagenes/2019/11/22/portada/1574416186_909714_1574416252_noticia_normal.jpg\",\n    \"description\":\"naruto y sus amigos\",\n    \"platforms\":\"Super Nintendo\",\n  \"released\":\"20/01/2022\",\n  \"rating\":\"4.5\",\n \"genres\":\"Action\"\n\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0b25aaf0-a7bc-4270-b851-27b3cef3f62f",
+            "colId": "dbf6cd94-35f4-48f5-a41c-9c683fc9b5a0",
+            "containerId": "",
+            "name": "updateVideogames",
+            "url": "http://localhost:3000/videogames/e60c615f-5f61-42fe-9e78-3d7a77308461",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2023-02-17T13:34:04.104Z",
+            "modified": "2023-02-17T14:03:15.541Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"naruto \",\n  \"image\":\"https://indiehoy.com/wp-content/uploads/2022/05/naruto-1280x720.jpg\",\n    \"description\":\"naruto y sus amigos\",\n    \"platforms\":\"Xbox\",\n  \"released\":\"20/01/2022\",\n  \"rating\":\"5\",\n \"genres\":\"Lucha\"\n\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b5b71083-5260-4199-8090-542d59447bde",
+            "colId": "dbf6cd94-35f4-48f5-a41c-9c683fc9b5a0",
+            "containerId": "",
+            "name": "getById DB",
+            "url": "http://localhost:3000/videogames/e60c615f-5f61-42fe-9e78-3d7a77308461",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-02-17T13:41:05.861Z",
+            "modified": "2023-02-17T14:03:08.955Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "63dbadfd-9ee6-4e71-b828-2d85673f9d4e",
+            "colId": "dbf6cd94-35f4-48f5-a41c-9c683fc9b5a0",
+            "containerId": "",
+            "name": "delete videogames",
+            "url": "http://localhost:3000/videogames/e60c615f-5f61-42fe-9e78-3d7a77308461",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2023-02-17T14:07:36.673Z",
+            "modified": "2023-02-17T14:07:44.585Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

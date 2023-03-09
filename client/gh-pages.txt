@@ -1,0 +1,7 @@
+
+
+npm i gh-pages -D
+  "homepage": "https://arielZarate.github.io/videogames",
+
+ "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
