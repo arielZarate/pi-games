@@ -14,7 +14,7 @@ import {
 export function getVideogames() {
   return function (dispatch) {
     axios
-      .get("http://localhost:4000/videogames/")
+      .get("videogames/")
 
       .then((r) => {
         dispatch({
@@ -24,7 +24,7 @@ export function getVideogames() {
       })
 
       .catch((error) => {
-        console.error("Error fetching dogs: ", error);
+        console.error("Error in getVideogames: ", error);
       });
 
     // console.log(r.data);
@@ -35,9 +35,7 @@ export function getVideogameName(name) {
   return async function (dispatch) {
     try {
       //http://localhost:4000/videogames?&name=god
-      var response = await axios.get(
-        `http://localhost:4000/videogames?name=${name}`
-      );
+      var response = await axios.get(`videogames?name=${name}`);
       return dispatch({
         type: GET_VIDEOGAME_NAME,
         payload: response.data, //es lo q devuelve la ruta una vez q le asigno algo por name
@@ -52,9 +50,7 @@ export function getDetails(id) {
   if (id) {
     return async function (dispatch) {
       try {
-        const response = await axios.get(
-          `http://localhost:4000/videogames/${id}`
-        );
+        const response = await axios.get(`videogames/${id}`);
         dispatch({
           type: GET_DETAIL_VIDEOGAME,
           payload: response.data,
@@ -72,7 +68,7 @@ export function getDetails(id) {
 export function postVideogame(body) {
   console.log(body.genres);
   return async function (dispatch) {
-    await axios.post(`http://localhost:4000/videogames/`, body);
+    await axios.post(`videogames/`, body);
     //no hace falta pero por lo menos hago para que el estado avise que hace encada caso
     dispatch({
       type: POST_VIDEOGAME,

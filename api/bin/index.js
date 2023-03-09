@@ -10,18 +10,21 @@ const { PORT, DB_NAME, URL_BASE, API_KEY, URL_GENERS } = process.env;
 const generateServidor = async () => {
   try {
     await sequelize.authenticate();
+
+    /*
+          Link para consumir la api VIDEOGAMES  ${URL_BASE}?key=${API_KEY}
+       Link para consumir la api de VIDEOGAMES por generos  ${URL_GENERS}
+        
+        iniciar en http://localhost:${PORT}/videogames/  
+        iniciar en http://localhost:${PORT}/genres/  */
     server.listen(PORT, () => {
       console.log(
         `
        ================= Proyecto basado en la api de Videogames ==========================
        Link de la pagina oficial :https://rawg.io/apidocs
-      
-       Link para consumir la api VIDEOGAMES  ${URL_BASE}?key=${API_KEY}
-       Link para consumir la api de VIDEOGAMES por generos  ${URL_GENERS}
-        Connection has been established successfully on port ${PORT} in db del proyecto ${DB_NAME} 🍻🍻🍻🍻🍻🥂🥂🥂
-        
-        iniciar en http://localhost:${PORT}/videogames/  
-        iniciar en http://localhost:${PORT}/genres/ 
+       Connection has been established successfully on port ${PORT} in db del proyecto ${DB_NAME} 
+
+       @copyrigth Ariel Zarate developer 
 
         `
       );
