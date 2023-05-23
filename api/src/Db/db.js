@@ -3,7 +3,7 @@ const database = require("../Db/config");
 require("../Db/associations");
 
 const sequelize = new Sequelize(
-  `postgres://${database.user}:${database.password}@${database.localhost}:${database.port}/${database.name_schema}`,
+  `postgres://${database.user}:${database.password}@${database.localhost}/${database.name_schema}`,
   {
     //  host: 'localhost',
     dialect:

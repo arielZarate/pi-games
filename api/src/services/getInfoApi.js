@@ -53,6 +53,7 @@ const getGames = async (name) => {
     return apiGames;
 
     //return url1.data.results;
+    //console.log(url1.data.results);
   } catch (error) {
     return { message: error.message };
   }
